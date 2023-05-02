@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
+
+    <title>Prin Kala</title>
+  </head>
+  <body class="index-background">
+ 
+<!-- Nav Bar -->
+  <div class="container-fluid container-all">
+  <nav class="navbar navbar-dark  fixed-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand ml-4 a-style1 text-dark" href="#">Prin Kala</a>
+      <ul class="ul-style1 me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-light text-dark" aria-current="page" href="product.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-light text-dark" aria-current="page" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-light text-dark" aria-current="page" href="#foot">Contact Us</a>
+        </li>
+      </ul>
+      <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="dropdown-style offcanvas offcanvas-end text-bg-dark text-light " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">More Options</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ul-style2 ">
+            <li class="nav-item ">
+              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="SignIn.html"><svg xmlns="http://www.w3.org/2000/svg" class="svg-style text-light" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+              </svg></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="#prorange">Wish List</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu dropdown-menu-primary ul-dropdown-style text-light">
+                <li><a class="dropdown-item" href="product.html">Product1</a></li>
+                <li><a class="dropdown-item" href="product.html">Product2</a></li>
+                <li><a class="dropdown-item" href="product.html">Product3</a></li>
+                <li><a class="dropdown-item" href="product.html">Product4</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Contact us</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- Slider -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner set-height">
+    <div class="carousel-item active">
+      <img src="imagees/img14.JPG" class="d-block w-100 slider-img" alt="...">
+      <div class="carousel-caption d-none d-md-block text-style">
+        <h1>Sikki Art</h1>
+        <p>A beautiful
+          contemporary
+          product that
+          signifies
+          auspiciousness and
+          good fortune.</p>
+      </div>
+    </div>
+    <div class="carousel-item set-height">
+      <img src="imagees/img32.JPG" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-style">
+        <h1>Channeri</h1>
+        <p>The channeri is a form
+          of a basket with a large
+          opening at the top
+          and a smaller base at
+          the bottom.</p>
+      </div>
+    </div>
+    <div class="carousel-item set-height">
+      <img src="imagees/img13.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-style">
+        <h1>Jewellery +
+          Accessories</h1>
+        <p>The jewelleries and accessories are intricately
+          designed and woven in a variety of patterns,
+          textures, and bright colours, and they primarily
+          include women’s accessories that are both
+          traditional and contemporary./p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Product Category -->
+<div class="container-fluid product-catgory">
+  <div class="card-category">
+    <div class="cargory-image">
+      <img src="imagees/product1.png" alt="Product Category Image">
+    </div>
+    <div class="category-text">
+      Accessories
+      <div class="button-style">
+        <a href="product.html">
+          <button class="btn btn-primary">
+            Shop Now
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-category">
+    <div class="cargory-image">
+
+      <img src="imagees/product2.png" alt="Product Category Image">
+    </div>
+    <div class="category-text">
+      Home Decor 
+      <div class="button-style">
+        <a href="product.html">
+          <button class="btn btn-primary">
+            Shop Now
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-category">
+    <div class="cargory-image">
+      
+      <img src="imagees/product3.png" alt="Product Category Image">
+    </div>
+    <div class="category-text">
+      Traditional
+      <div class="button-style">
+        <a href="product.html">
+          <button class="btn btn-primary">
+            Shop Now
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Advertisement -->
+
+<div id="carouselExampleCaption" class="container-fluid carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaption" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaption" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaption" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner set-height">
+    <div class="carousel-item active">
+      <!-- <img src="bg.jpg" class="d-block w-50" alt="..."> -->
+      <div class="container-fluid advertisement ">
+        <div class="advr-img">
+            <img src="imagees/img21.png" alt="">
+          </div>
+          <div class="content-all">
+            <div style="width:65%">Maithil women have been
+              making beautiful utility products for centuries, but the beauty is how the designs have
+              incorporated the modern taste of the customers as well as keeping the heritage alive.<br>
+            <button class="btn btn-primary">Know More</button>
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="carousel-item set-height">
+      <div class="container-fluid advertisement">
+        <div class="advr-img">
+            
+          <img src="imagees/img10.png" alt="">
+          </div>
+          <div class="content-all">
+            <div style="width:65%; height: 50%;">
+              There are various types of products available in the Sikki craft. It includes utilitarian as well as decorative products. All the Sikki products are sustainable and eco-friendly. The products are aesthetically appealing and are a good alternative of plastic proucts. The products include baskets, bangles, jewellery boxes, figure of deities, home decor and many more.
+              <br>
+            <button class="btn btn-primary">Know More</button>
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="carousel-item set-height">
+      <div class="container-fluid advertisement">
+        <div class="advr-img">
+            
+          <img src="imagees/img29.JPG" alt="">
+          </div>
+          <div class="content-all">
+            <div style="width:65%">
+              
+              The channeri is a form
+              of a basket with a large
+              opening at the top
+              and a smaller base at
+              the bottom. It is an
+              important traditional
+              product that has long
+              been utilized in Mithila
+              culture for marriages,
+              rituals, and celebrations.<br>
+            <button class="btn btn-primary">Know More</button>
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaption" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaption" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!-- Product Range -->
+<div class=" container-fluid product-container" id="prorange">
+  <h1>Best Sellers</h1>
+  <div class="product-row">
+  <div class="card product-item col-4" style="width: 18rem;">
+    <div class="product-item-image">
+      <img src="imagees/img5.png" class="card-img-top" alt="...">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Pauti Panwatti</h5>
+      <p class="card-text">Rs. 200/300</p>
+      <a href="product_detail.html" class="button-style"><button class="btn btn-primary">Buy It!!!</button></a>
+    </div>
+  </div>
+  
+  <div class="card product-item col-4" style="width: 18rem;">
+    <div class="product-item-image">
+      <img src="imagees/product3.png" class="card-img-top" alt="...">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Hathi box</h5>
+      <p class="card-text">Rs. 400</p>
+      <a href="product_detail.html" class="button-style"><button class="btn btn-primary">Buy It!!!</button></a>
+    </div>
+  </div>
+  <div class="card product-item col-4" style="width: 18rem;">
+    <div class="product-item-image">
+      <img src="imagees/img33.png" class="card-img-top" alt="...">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Home decor+utility products</h5>
+      <p class="card-text">Rs. 200/800</p>
+      <a href="product_detail.html" class="button-style"><button class="btn btn-primary">Buy It!!!</button></a>
+    </div>
+  </div>
+</div>
+<div class="product-row" style="margin-bottom: 5%;">
+  <div class="card product-item col-4" style="width: 18rem;">
+    <div class="product-item-image">
+      <img src="imagees/img1.png" class="card-img-top" alt="...">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">hand bags</h5>
+      <p class="card-text">Rs. 100</p>
+      <a href="product_detail.html" class="button-style"><button class="btn btn-primary">Buy It!!!</button></a>
+    </div>
+  </div>
+  
+  <div class="card product-item col-4" style="width: 18rem;">
+    <div class="product-item-image">
+      <img src="imagees/img15.png" class="card-img-top" alt="...">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Traditional Products</h5>
+      <p class="card-text">Rs. 640</p>
+      <a href="product_detail.html" class=" button-style"><button class="btn btn-primary">Buy It!!!</button></a>
+    </div>
+  </div>
+  <div class="card product-item col-4" style="width: 18rem;">
+    <div class="product-item-image">
+      <img src="imagees/img24.png" class="card-img-top" alt="...">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Wall hanging</h5>
+      <p class="card-text">Rs. 200</p>
+      <a href="product_detail.html" class=" button-style"><button class="btn btn-primary">Buy It!!!</button></a>
+    </div>
+  </div>
+</div>
+</div>
+    <!-- Bars -->
+
+    <!-- Video End -->
+    <Section class="container-fluid hero" id="about">
+      <div class="content-iframe">
+        <div class="description a-style1">
+          <ul>
+            <li><a href="#" class="text-light">About</a></li>
+            <li><a href="#" class="text-light">Contact Us</a></li>
+            <li>
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Product Range
+              </a>
+              <ul class="dropdown-menu dropdown-menu-primary ul-dropdown-style text-light">
+                <li><a class="dropdown-item" href="#">Product1</a></li>
+                <li><a class="dropdown-item" href="#">Product2</a></li>
+                <li><a class="dropdown-item" href="#">Product3</a></li>
+                <li><a class="dropdown-item" href="#">Product4</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+          <div class="button-style">
+            <button class="btn btn-primary" style="float:right; width:100%">
+              Visit
+            </button>
+          </div>
+        </div>
+      </div>
+        <div class="i-frame">
+          <iframe
+            src="https://www.youtube.com/embed/8QLjKTjdt5s"
+            title="YouTube video player"
+            frameborder="10"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe>
+          <h6>the video belongs to 
+            <a href="https://www.youtube.com/@CatterflyTravel.Art.Culture" style="text-decoration: none;">Catterfly Travel.Art.Culture</a>  and is taken from youTube</h6>
+        </div>
+        
+      </Section>
+
+<!-- Footer -->
+<footer class="container-fluid footer-style" id="foot">
+  <div class="resources">
+    <ul>
+      <li class="text-secondary">Resources</li>
+      <li>Suport Center</li>
+      <li>FAQ</li>
+    </ul>
+  </div>
+  <div class="about">
+    <ul>
+      <li class="text-secondary">About</li>
+      <li>Pricing</li>
+      <li>How it Works</li>
+    </ul>
+  </div>
+  <div class="contact">
+    <ul>
+      <li class="text-secondary">Contact</li>
+      <li>Twitter</li>
+      <li>Facebook</li>
+    </ul>
+  </div>
+  <div class="newsletter">
+    <input type="email" placeholder="E-Mail Id"><button class="btn">Join</button>
+  </div>
+</footer>    
+    <!-- Scripts -->
+    <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
